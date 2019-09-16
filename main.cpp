@@ -11,7 +11,7 @@ using namespace std;
 int main(){
 	int x1 = 0, y1, x2, y2;
 	int cx, cy, r;
-
+	//---------------------------MANUALLY ENTERING VALUES
 	printf("enter x1:   ");
 	scanf("%d", &x1);
 	printf("x1 entered is = %d \n", x1);
@@ -40,7 +40,7 @@ int main(){
 	scanf("%d", &r);
 	printf("r entered is = %d \n", r);
 
-
+	//---------------------------FINDING VECTOR OF LINE AND CALCULATING ITS UNIT VECTOR COMPONENTS
 	int vectorx, vectory;
 
 	vectorx = x2 - x1;
@@ -58,7 +58,10 @@ int main(){
 	unitvectory = vectory/length;
 	printf("line unit vector x length is: %f\n", unitvectorx);
 	printf("line unit vector y length is: %f\n", unitvectory);
-
+	//---------------------------FINDING VECTOR OF LINE AND CALCULATING ITS UNIT VECTOR COMPONENTS
+	
+	
+	//---------------------------CHECKING FOR INTERSECTING POINTS ON BOTH CIRCLE AND LINE
 	double x, y;
 
 	for(int i = 0; i < 1000; i++){
@@ -70,5 +73,6 @@ int main(){
 			printf("\nFOUND on x= %i y= %i\n", x,y);
 		}
 	}
+	//---------------------------CHECKING FOR INTERSECTING POINTS ON BOTH CIRCLE AND LINE
 	_getch();
 }
