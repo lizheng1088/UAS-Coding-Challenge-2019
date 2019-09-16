@@ -39,6 +39,8 @@ int main(){
 	printf("enter r:   ");
 	scanf("%d", &r);
 	printf("r entered is = %d \n", r);
+	//---------------------------MANUALLY ENTERING VALUES
+	
 
 	//---------------------------FINDING VECTOR OF LINE AND CALCULATING ITS UNIT VECTOR COMPONENTS
 	int vectorx, vectory;
